@@ -1,5 +1,13 @@
 <main>
-  <div class="mdc-typography--headline2">Lambda+DynamoDB Client</div>
+  <div class="mdc-typography--headline2">
+    Lambda
+    <br>
+    +
+    <br>
+    DynamoDB
+    <br>
+    Client
+  </div>
 
   <DataTable table$aria-label="Item list" style="width: 100%;">
     <Head>
