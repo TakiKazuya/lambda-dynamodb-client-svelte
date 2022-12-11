@@ -50,12 +50,15 @@
   <Title id="simple-title">Add Item</Title>
   <Content id="sheet-content">
     <IconButton action="close" class="material-icons">close</IconButton>
+    <br>
     <Textfield variant="outlined" bind:value={id} label="ID">
       <HelperText slot="helper">Item ID</HelperText>
     </Textfield>
+    <br>
     <Textfield variant="outlined" bind:value={name} label="Name">
       <HelperText slot="helper">Item Name</HelperText>
     </Textfield>
+    <br>
     <Textfield variant="outlined" bind:value={price} label="Price">
       <HelperText slot="helper">Item Price</HelperText>
     </Textfield>
